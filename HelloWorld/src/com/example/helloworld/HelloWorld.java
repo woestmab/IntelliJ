@@ -11,6 +11,8 @@ public class HelloWorld {
 
         LoggingExample log = new LoggingExample();
 
+        log.loggingExample();
+
 
     }
 }
