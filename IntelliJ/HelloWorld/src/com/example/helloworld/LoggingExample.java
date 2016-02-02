@@ -10,8 +10,8 @@ public class LoggingExample {
 
     private final Logger log = Logger.getLogger(this.getClass());
 
-    public LoggingExample() {
-        log.setLevel(Level.WARN);
+    public void loggingExample() {
+        log.setLevel(Level.TRACE);
 
         log.trace("Trace Message!");
         log.debug("Debug Message!");
